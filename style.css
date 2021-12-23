@@ -353,6 +353,9 @@ header .navbar ul li a:hover{
     background:var(--red);
     border-radius: 5rem;
 }
+.handwash .box-container .box:hover{
+    transform:translateY(-1rem);
+}
 
 .spread .heading{
     text-align: center;
