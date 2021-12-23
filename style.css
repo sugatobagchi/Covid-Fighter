@@ -386,8 +386,8 @@ header .navbar ul li a:hover{
 }
 
 .footer .box-container{
-    padding: 10%;
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -395,6 +395,10 @@ header .navbar ul li a:hover{
 .footer .box-container .box{
     flex:1 1 25rem;
     margin:2rem;
+    margin-top: 3rem;
+    padding:2rem 3.5rem;
+    text-align: center;
+    position: relative;
 }
 
 .footer .box-container .box h3{
