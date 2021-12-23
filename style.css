@@ -371,9 +371,13 @@ header .navbar ul li a:hover{
 }
 
 .footer{
-    min-height: auto;
-    padding-top: 0;
-    background:#333;
+    display: flex;
+    margin-top: 5px;
+    padding-top: 10;
+    background:rgb(214, 172, 172);
+   
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer .box-container{
@@ -427,7 +431,7 @@ header .navbar ul li a:hover{
     width:4rem;
     line-height: 2rem;
     text-align: center;
-    border-radius: 5rem;
+    border-radius: 6rem;
     border:.1rem solid #fff3;
     margin-right: 1rem;
 }
@@ -448,51 +452,51 @@ header .navbar ul li a:hover{
 .footer .credit a{
     color:var(--red);
 }
-.about .box-container{
+.footer .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.about .box-container .box{
-    background:#fff;
-    border:.1rem solid rgba(0,0,0,.1);
+.footer .box-container .box{
+    background:rgba(26, 15, 15, 0.787);
+    border:.1rem solid rgba(12, 10, 10, 0.1);
     padding:2rem;
     margin:2rem;
     width:34rem;
-    border-radius: .5rem;
+    border-radius: 4rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     text-align: center;
 }
 
-.about .box-container .box img{
+.footer .box-container .box img{
     height: 17rem;
     width:17rem;
 }
 
-.about .box-container .box h3{
+.footer .box-container .box h3{
     font-size: 2.5rem;
-    color:#666;
+    color:rgb(230, 159, 170);
     padding:1rem 0;
 }
 
-.about .box-container .box p{
+.footer .box-container .box p{
     font-size: 1.4rem;
     color:#999;
     padding:.5rem;
 }
 
-.about .box-container .box:hover{
-    transform:translateY(-1rem);
+.footer .box-container .box:hover{
+    transform:translateY(1rem);
 }
-.about .box-container .box .share{
+.footer .box-container .box .share{
     display: flex;
     flex-wrap: wrap;
     padding:1rem 0;
 }
 
-.about .box-container .box .share a{
+.footer .box-container .box .share a{
     height:4rem;
     width:4rem;
     line-height: 2rem;
@@ -502,8 +506,9 @@ header .navbar ul li a:hover{
     margin-right: 1rem;
 }
 
-.about .box-container .box .share a:hover{
-    background:#fff;
+.footer .box-container .box .share a:hover{
+    background:rgb(251, 246, 246);
+    
 }
 
 .scroll-top{
