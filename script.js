@@ -27,7 +27,9 @@ $(document).ready(function(){
       let top = $(window).scrollTop();
 
       if(top > offset && top < offset + height){
+        console.log("remove")
         $('.navbar ul li a').removeClass('active')
+        console.log("Add")
         $('.navbar').find(`[href="#${id}"]`).addClass('active');
       }
 
