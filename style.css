@@ -375,12 +375,13 @@ header .navbar ul li a:hover{
     margin-top: 5px;
     padding-top: 10;
     background:rgb(214, 172, 172);
-   
+    /* display:inline-block; */
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .footer .box-container{
+    padding: 10%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -424,6 +425,7 @@ header .navbar ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     padding:1rem 0;
+    justify-content: center;
 }
 
 .footer .box-container .box .share a{
