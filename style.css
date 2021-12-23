@@ -79,6 +79,8 @@ section{
 .heading{
     font-size: 3rem;
     color:#666;
+    padding: 0 45% 0 45%;
+    margin-bottom: 0px;
 }
 
 .heading span{
