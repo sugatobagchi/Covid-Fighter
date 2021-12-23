@@ -79,10 +79,13 @@ section{
 .heading{
     font-size: 3rem;
     color:#666;
+    
+}
+
+.footer .heading{
     padding: 0 45% 0 45%;
     margin-bottom: 0px;
 }
-
 .heading span{
     color:var(--red);
 }
