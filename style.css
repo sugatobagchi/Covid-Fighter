@@ -89,6 +89,57 @@ section{
 .heading span{
     color:var(--red);
 }
+.navbar{
+    
+    animation: fadeIn 3s;
+    
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.fadeIn{
+    /* animation-name: fadeIn; */
+    animation: fadeIn 8s;
+    /* animation-duration: 6s;
+    animation-delay: 5s; */
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.fade{
+    animation-name: fadeIn;
+    /* animation: fadeIn 6s; */
+    animation-duration: 7s;
+    /* animation-delay: 2s; */
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* @keyframes fadeout{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} */
 
 
 header{
@@ -374,6 +425,47 @@ header .navbar ul li a:hover{
     background-size: cover;
     background-position: center;
 }
+.helpline .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.helpline .box-container .box{
+    background:#fff;
+    border:.1rem solid rgba(0,0,0,.1);
+    padding:2rem;
+    margin:2rem;
+    width:34rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    text-align: center;
+    border-radius: 40%;
+}
+
+.helpline .box-container .box img{
+    height: 17rem;
+    width:17rem;
+}
+
+.helpline .box-container .box h3{
+    font-size: 2.5rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+.helpline .box-container .box p{
+    font-size: 1.4rem;
+    color:#999;
+    padding:.5rem;
+}
+
+.helpline .box-container .box:hover{
+    transform:translateY(-1rem);
+}
+
+
 
 .footer{
     display: flex;
