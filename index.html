@@ -1,489 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Covid Fighter</title>
-    <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="shortcut icon" href="./images/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
-    
-    
-<!-- header section starts  -->
 
-<header>
+    <header>
+        <a href="#" class="logo">C<span class="fas fa-virus"></span>VID-Fighter</a>
 
-    <a href="#" class="logo">C<span class="fas fa-virus"></span>VID-Fighter</a>
+        <div id="menu" class="fas fa-bars"></div>
 
-    <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">home</a></li>
+                <li><a href="#protect">protect</a></li>
+                <li><a href="#symtoms">symptoms</a></li>
+                <li><a href="#cases">Cases</a></li>
+                <li><a href="#prevent">prevent</a></li>
+                <li>
+                    <a href="https://www.google.com/search?q=covid+india" target="_blank">news</a>
+                </li>
+                <li><a href="#helpline">helpline</a></li>
+                <li><a href="#about">about</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav class="navbar">
-        <ul>
-            
-            <li><a class="active" href="#home" >home</a></li>
-            <li><a href="#protect" >protect</a></li>
-            <!-- <li><a href="#protect">Self check</a></li>
-            <li><a href="#protect">Cases Nearby</a></li>  -->
-            <li><a href="#symtoms">symptoms</a></li>
-            <li><a href="#cases">Cases</a></li>
-            <li><a href="#prevent">prevent</a></li>
-            <!-- <li><a href="#spread">spread</a></li>  -->
-            <li><a href="https://www.google.com/search?q=covid+india&sxsrf=AOaemvItJgoMsnKwiSs6ymoOc_YfOZKDSQ:1640265260959&source=lnms&tbm=nws&sa=X&ved=2ahUKEwjrzd2hgPr0AhWRA4gKHVT5ALgQ_AUoAXoECAIQAw" target="_blank">news</a></li>
-            <li><a href="#helpline">helpline</a></li>
-            <li><a href="#about">about</a></li>
-        </ul>
-    </nav>
-
-</header>
-
-<!-- header section ends -->
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="content">
-
-        
-        <h3 class="fadeIn">stay safe, stay home</h3>
-        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolores quibusdam ad sapiente quod harum recusandae esse voluptates repellat tempore.</p> -->
-    <div class="fade">
-        <a href="#" class="btn">protect yourself</a>
-    </div>
-    </div>
-
-    
-
-    <div class="image">
-        <div class="fadeIn">
-        <img src="images/home-img.png" alt="">
-    </div>
-    </div>
-
-</section>
-
-<!-- home section ends -->
-
-
-<!-- protect section starts  -->
-<section class="protect" id="protect">
-    <h1 class="heading"><span>be aware</span> of your surroundings</h1>
-    <div class="box-container">
-        
-        <div class="box">
-            <img src="selfcheckup.png" alt="">
-            <h3>self check up</h3>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p> -->
-            <a href="#" class="btn">check</a>
-        </div>
-        <div class="box">
-            <img src="nearby.png" alt="">
-            <h3>nearby cases</h3>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p> -->
-            <a href="#" class="btn">find out</a>
-        </div>
-        <div class="box">
-            <img src="update.png" alt="">
-            <h3>Covid status</h3>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p> -->
-            <a href="https://www.mohfw.gov.in/" class="btn" target="_blank">covid status</a>
-        </div>
-    </div>
-
-    <br><br><br>
-    <h1 class="heading">take steps to <span>protect</span> yourself</h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <img src="images/protect-1.png" alt="">
-            <h3>Wear A Face Mask</h3>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p> -->
-            <!-- <a href="#" class="btn">learn more</a> -->
-        </div>
-
-        <div class="box">
-            <img src="images/protect-2.png" alt="">
-            <h3>Wash Your Hands</h3>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p>
-            <a href="#" class="btn">learn more</a> -->
-        </div>
-
-        <div class="box">
-            <img src="images/protect-3.png" alt="">
-            <h3>Avoid Close Contact</h3>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p>
-            <a href="#" class="btn">learn more</a> -->
-        </div>
-
-    </div>
-</section>
-<!-- protect section ends  -->
-
-
-
-<!-- symtoms section starts  -->
-
-<section class="symtoms" id="symtoms">
-
-    <div class="content">
-        <h1 class="heading">What Are The Main <span>Symptoms?</span></h1>
-        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eos ex, magnam odit quaerat labore amet! Numquam obcaecati nobis possimus.</p> -->
-        <ul>
-            <div class="one">
-                <li>fever</li>
-                <li>Tiredness</li>
-                <li>Dry Cough</li>
+    <section class="home" id="home">
+        <div class="content">
+            <h3 class="fadeIn">stay safe, stay home</h3>
+            <div class="fade">
+                <a href="#" class="btn">protect yourself</a>
             </div>
-            <div class="two">
-                <li>Sore Throat</li>            
-                <li>Aches and Pains</li>
-                <li>Shortness of Breath</li>
-            </div>
-        </ul>
-        <!-- <a href="#" class="btn">know more</a> -->
-    </div>
-
-    <div class="image">
-        <img src="images/symptoms-img.png" alt="">
-    </div>
-
-</section>
-<section class="cases" id="cases" style="background-color: rgb(70, 63, 63); font-family: fantasy;">
-    <h1 class="heading" style="text-align: center; font-size: 5rem; color: aliceblue;"><span>Current</span> Covid Status</h1>
-    <br><br>
-    <h1 class="heading" style="text-align: right; padding-right: 90px; color: aliceblue; font-size: 3.5rem;"><span>Daily Cases</span> Near You </h1>
-    <br><br>
-    <div class="unique1" style="text-align: right;">
-       
-    </div>
-    <br><br>
-    <br>
-    <h1 class="heading" style="padding-left: 90px; color: aliceblue; font-size: 3.5rem;"><span>Total Cases</span> In Your State </h1>
-    <br><br>
-    <div class="unique2">
-    
-    </div>
-</section>
-
-<!-- symtoms section ends -->
-
-<!-- prevent section starts  -->
-
-<section class="prevent" id="prevent">
-
-    <div class="row">
+        </div>
 
         <div class="image">
-            <img src="images/dont-img.png" alt="">
+            <div class="fadeIn">
+                <img src="./images/home-img.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <section class="protect" id="protect">
+        <h1 class="heading"><span>be aware</span> of your surroundings</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/selfcheckup.png" alt="" />
+                <h3>self check up</h3>
+                <a href="#" class="btn">Take Test</a>
+            </div>
+            <div class="box">
+                <img src="./images/nearby.png" alt="" />
+                <h3>nearby cases</h3>
+                <a href="#cases" class="btn">find out</a>
+            </div>
+            <div class="box">
+                <img src="./images/update.png" alt="" />
+                <h3>Covid status</h3>
+                <a href="https://www.mohfw.gov.in/" class="btn" target="_blank">Check Here</a>
+            </div>
         </div>
 
-        <div class="content">
-            <h1 class="heading">things <span>not to do</span> during covid</h1>
-            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat nulla, dolor excepturi repellendus officiis expedita saepe veniam minima adipisci tenetur?</p> -->
-            <ul>
-                <li>Do Not Share Eating</li>
-                <li>Do Not Touch Your Face or Nose</li>
-                <li>Do Not Contact Sick People</li>
-            </ul>
+        <br /><br /><br />
+        <h1 class="heading">take steps to <span>protect</span> yourself</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/protect-1.png" alt="" />
+                <h3>Wear A Face Mask</h3>
+            </div>
+
+            <div class="box">
+                <img src="./images/protect-2.png" alt="" />
+                <h3>Wash Your Hands</h3>
+            </div>
+
+            <div class="box">
+                <img src="./images/protect-3.png" alt="" />
+                <h3>Avoid Close Contact</h3>
+            </div>
         </div>
+    </section>
 
-    </div>
-
-    <div class="row">
-
+    <section class="symtoms" id="symtoms">
         <div class="content">
-            <h1 class="heading">things <span>to do</span> during covid</h1>
-            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat nulla, dolor excepturi repellendus officiis expedita saepe veniam minima adipisci tenetur?</p> -->
+            <h1 class="heading">What Are The Main <span>Symptoms?</span></h1>
             <ul>
-                <li>Wash Your Hands For 20 sec</li>
-                <li>Wear a Mask if Available</li>
-                <li>Seek Medical Care Regularly</li>
+                <div class="one">
+                    <li>fever</li>
+                    <li>Tiredness</li>
+                    <li>Dry Cough</li>
+                </div>
+                <div class="two">
+                    <li>Sore Throat</li>
+                    <li>Aches and Pains</li>
+                    <li>Shortness of Breath</li>
+                </div>
             </ul>
         </div>
 
         <div class="image">
-            <img src="images/do-img.png" alt="">
+            <img src="./images/symptoms-img.png" alt="" />
         </div>
+    </section>
+    <section class="cases" id="cases" style="background-color: rgb(70, 63, 63); font-family: fantasy">
+        <h1 class="heading" style="text-align: center; font-size: 5rem; color: aliceblue">
+            <span>Current</span> Covid Status
+        </h1>
+        <br /><br />
+        <h1 class="heading" style="
+          text-align: right;
+          padding-right: 90px;
+          color: aliceblue;
+          font-size: 3.5rem;
+        ">
+            <span>Daily Cases</span> Near You
+        </h1>
+        <br /><br />
+        <div class="unique1" style="text-align: right"></div>
+        <br /><br />
+        <br />
+        <h1 class="heading" style="padding-left: 90px; color: aliceblue; font-size: 3.5rem">
+            <span>Total Cases</span> In Your State
+        </h1>
+        <br /><br />
+        <div class="unique2"></div>
+        <br /><br /><br />
+        <h1 class="heading" style="text-align: center; font-size: 5rem; color: aliceblue">
+            See More On <a  href="https://covid19tracker.in/" target="_blank"><span style="text-transform: lowercase;">covid19tracker.in</span></a>
+        </h1>
+    </section>
 
-    </div>
-
-</section>
-
-<!-- prevent section ends -->
-
-<!-- handwash section starts  -->
-
-<section class="handwash" id="handwash">
-
-    <h1 class="heading"><span>wash your hands</span> properly</h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <span>1</span>
-            <img src="images/hadnwash-1.png" alt="">
-            <h3>Apply Soap on Hand</h3>
-        </div>
-
-        <div class="box">
-            <span>2</span>
-            <img src="images/hadnwash-2.png" alt="">
-            <h3>Palm to Palm</h3>
-        </div>
-
-        <div class="box">
-            <span>3</span>
-            <img src="images/hadnwash-3.png" alt="">
-            <h3>Between Fingers</h3>
-        </div>
-
-        <div class="box">
-            <span>4</span>
-            <img src="images/hadnwash-4.png" alt="">
-            <h3>Back of The Hands</h3>
-        </div>
-
-        <div class="box">
-            <span>5</span>
-            <img src="images/hadnwash-5.png" alt="">
-            <h3>clean with water</h3>
-        </div>
-
-        <div class="box">
-            <span>6</span>
-            <img src="images/hadnwash-6.png" alt="">
-            <h3>Use Towel to Dry</h3>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- handwash section ends -->
-
-<section class="helpline" id="helpline">
-    <br><br>
-    <h1 class="heading" style="text-align: center;"><span>Emergency</span> Contacts</h1>
-    <br><br><br><br><br><br><br><br>
-    <div class="box-container">
-
-        <div class="box">
-            <img src="emergency.png" alt="">
-            <h3 style="color: #FF4F5B;">Emergency Help</h3>
-            
-            <p style="font-size: 20px;"><a href="#" class="fas fa-phone"></a>   +91-33234-12600</p>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p> -->
-            <!-- <a href="#" class="btn">learn more</a> -->
-        </div>
-
-        <div class="box">
-            <img src="child.png" alt="">
-            <h3 style="color: #FF4F5B;">Child Helpline</h3>
-            <p style="font-size: 20px;"><a href="#" class="fas fa-phone"></a>   1098</p>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p>
-            <a href="#" class="btn">learn more</a> -->
-        </div>
-
-        <div class="box">
-            <img src="senior.png" alt="">
-            <h3 style="color: #FF4F5B;">Senior Citizens Helpline</h3>
-            <p style="font-size: 20px;"><a href="#" class="fas fa-phone"></a>  14567</p>
-            
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p>
-            <a href="#" class="btn">learn more</a> -->
-        </div>
-
-    </div>
-
-</section>
-
-<!-- spread section starts  -->
-
-<!-- <section class="spread" id="spread">
-
-    <h1 class="heading">how Covid-19 <span>spreads</span> over the world</h1>
-
-    <div class="image">
-        
-    </div>
-
-</section> -->
-
-<!-- About us starts -->
-<section class="footer" id="about">
-    
-    <h1 class="heading"><span>About</span> Us</h1>
-    <br><br>
-
-    <div class="box-container">
-        
-        <div class="box">
-            
-            <img src="selfcheckup.png" alt="">
-            <h3><i>Name</i></h3>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p> -->
-            <!-- <a href="#" class="btn">check</a> -->
-            <!-- <div class="box-container">
-            <div class="box"> -->
-            <div class="share">
-                <a href="#" class="fab fa-linkedin"></a>
-                <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-github"></a>
-                <a href="#" class="fab fa-instagram"></a>
-            <!-- </div>
-            </div> -->
+    <section class="prevent" id="prevent">
+        <div class="row">
+            <div class="image">
+                <img src="./images/dont-img.png" alt="" />
             </div>
-        </div>
-        <div class="box">
-            <img src="nearby.png" alt="">
-            <h3><i>Name</i></h3>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p> -->
-            <!-- <a href="#" class="btn">find out</a> -->
-            <!-- <div class="box-container">
-                <div class="box"> -->
-                <div class="share">
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-github"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                <!-- </div>
-                </div> -->
-                </div>
-        </div>
-        <div class="box">
-            <img src="update.png" alt="">
-            <h3><i>name</i></h3>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p> -->
-            <!-- <a href="#" class="btn">covid status</a> -->
-            <!-- <div class="box-container">
-                <div class="box"> -->
-                <div class="share">
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-github"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                <!-- </div>
-                </div> -->
-                </div>
-        </div>
-        <div class="box">
-            <img src="update.png" alt="">
-            <h3><i>Name</i></h3>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ab magni consequatur, quae in repellat. Placeat deserunt vitae alias dignissimos!</p> -->
-            <!-- <a href="#" class="btn">covid status</a> -->
-            <!-- <div class="box-container">
-                <div class="box"> -->
-                <div class="share">
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-github"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                <!-- </div>
-                </div> -->
-                </div>
-        </div>
-    </div>
-    
-</section>
 
-<!-- spread section ends -->
-
-<!-- footer section starts  -->
-
-<!-- <section class="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>about us</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio rerum explicabo impedit aperiam non quod. Velit sunt voluptatem nemo beatae.</p>
-        </div>
-
-        <div class="box">
-            <h3>locations</h3>
-            <a href="#">india</a>
-            <a href="#">USA</a>
-            <a href="#">russia</a>
-            <a href="#">japan</a>
-            <a href="#">france</a>
-            <a href="#">africa</a>
-            <a href="#">spain</a>
-        </div>
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#">home</a>
-            <a href="#">protect</a>
-            <a href="#">symtoms</a>
-            <a href="#">prevent</a>
-            <a href="#">news</a>
-        </div>
-
-        <div class="box">
-             <h3>contact info</h3>
-             <p> <i class="fas fa-phone"></i> +123-456-7890. </p>
-            <p> <i class="fas fa-envelope"></i> example@gmail.com </p>
-            <p> <i class="fas fa-map-marker-alt"></i> mumbai, indai - 400104. </p> -->
-            <!-- <div class="box-container">
-                <div class="box">
-                <div class="share">
-                    <a href="#" class="fab fa-youtube"></a>
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div>
-                </div>
-                </div>
-            <div class="share">
-                <a href="#" class="fab fa-youtube"></a>
-                <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
+            <div class="content">
+                <h1 class="heading">things <span>not to do</span> during covid</h1>
+                <ul>
+                    <li>Do Not Share Eating</li>
+                    <li>Do Not Touch Your Face or Nose</li>
+                    <li>Do Not Contact Sick People</li>
+                </ul>
             </div>
         </div>
 
-    </div>
+        <div class="row">
+            <div class="content">
+                <h1 class="heading">things <span>to do</span> during covid</h1>
+                <ul>
+                    <li>Wash Your Hands For 20 sec</li>
+                    <li>Wear a Mask if Available</li>
+                    <li>Seek Medical Care Regularly</li>
+                </ul>
+            </div>
 
-     <h1 class="credit"> created by <a href="#"> mr. web designer </a> all rights reserved! </h1>
+            <div class="image">
+                <img src="./images/do-img.png" alt="" />
+            </div>
+        </div>
+    </section>
 
-</section> -->
+    <section class="handwash" id="handwash">
+        <h1 class="heading"><span>wash your hands</span> properly</h1>
 
-<!-- footer section ends -->
+        <div class="box-container">
+            <div class="box">
+                <span>1</span>
+                <img src="./images/hadnwash-1.png" alt="" />
+                <h3>Apply Soap on Hand</h3>
+            </div>
 
-<!-- scroll top  -->
+            <div class="box">
+                <span>2</span>
+                <img src="./images/hadnwash-2.png" alt="" />
+                <h3>Palm to Palm</h3>
+            </div>
 
-<a href="#home" class="scroll-top">
-    <img src="images/scroll-img.png" alt="">
-</a>
+            <div class="box">
+                <span>3</span>
+                <img src="./images/hadnwash-3.png" alt="" />
+                <h3>Between Fingers</h3>
+            </div>
 
+            <div class="box">
+                <span>4</span>
+                <img src="./images/hadnwash-4.png" alt="" />
+                <h3>Back of The Hands</h3>
+            </div>
 
+            <div class="box">
+                <span>5</span>
+                <img src="./images/hadnwash-5.png" alt="" />
+                <h3>clean with water</h3>
+            </div>
 
+            <div class="box">
+                <span>6</span>
+                <img src="./images/hadnwash-6.png" alt="" />
+                <h3>Use Towel to Dry</h3>
+            </div>
+        </div>
+    </section>
 
+    <section class="helpline" id="helpline">
+        <br /><br />
+        <h1 class="heading" style="text-align: center">
+            <span>Emergency</span> Contacts
+        </h1>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/emergency.png" alt="" />
+                <h3 style="color: #ff4f5b">Emergency Help</h3>
 
+                <p style="font-size: 20px">
+                    <a class="fas fa-phone" style="color: blue; "></a> +91-33234-12600
+                </p>
+            </div>
 
+            <div class="box">
+                <img src="./images/child.png" alt="" />
+                <h3 style="color: #ff4f5b">Child Helpline</h3>
+                <p style="font-size: 20px">
+                    <a class="fas fa-phone" style="color: blue; "></a> 1098
+                </p>
+            </div>
 
+            <div class="box">
+                <img src="./images/senior.png" alt="" />
+                <h3 style="color: #ff4f5b">Senior Citizens Helpline</h3>
+                <p style="font-size: 20px">
+                    <a class="fas fa-phone" style="color: blue; "></a> 14567
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="footer" id="about">
+        <h1 class="heading" style="text-align: center;"><span>About</span> Us</h1>
+        <br /><br />
 
-
-
-
-
-
-
-
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="./script.js"></script>
-
-
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/selfcheckup.png" alt="" />
+                <h3><i>Name</i></h3>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-github"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/nearby.png" alt="" />
+                <h3><i>Name</i></h3>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-github"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/update.png" alt="" />
+                <h3><i>name</i></h3>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-github"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/update.png" alt="" />
+                <h3><i>Name</i></h3>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-github"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#home" class="scroll-top">
+        <img src="./images/scroll-img.png" alt="" />
+    </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

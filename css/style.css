@@ -82,10 +82,6 @@ section{
     
 }
 
-.footer .heading{
-    padding: 0 45% 0 45%;
-    margin-bottom: 0px;
-}
 .heading span{
     color:var(--red);
 }
@@ -479,16 +475,15 @@ header .navbar ul li a:hover{
     transform:translateY(-1rem);
 }
 
-
-
 .footer{
-    display: flex;
+    display: float;
     margin-top: 5px;
     padding-top: 10;
     background:rgb(214, 172, 172);
-    /* display:inline-block; */
     justify-content: center;
     flex-wrap: wrap;
+    min-height: 0px;
+    padding-bottom: 5em;
 }
 
 .footer .box-container{
@@ -505,6 +500,7 @@ header .navbar ul li a:hover{
     padding:2rem 3.5rem;
     text-align: center;
     position: relative;
+    max-width: 34rem;
 }
 
 .footer .box-container .box h3{
@@ -638,22 +634,6 @@ header .navbar ul li a:hover{
 .scroll-top img{
     height: 7rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media queries  */
 
 @media (max-width:991px){
 
