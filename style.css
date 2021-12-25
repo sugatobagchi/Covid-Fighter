@@ -318,6 +318,20 @@ header .navbar ul li a:hover{
     color:#666;
     padding: .5rem 0;
 }
+.cases{
+    font-family: monospace;
+    font-weight: lighter;
+}
+.unique1 {
+    color: rgb(241, 235, 235);
+    font-size: 1.7rem;
+    padding-right: 90px;
+}
+.unique2 {
+    color: rgb(241, 235, 235);
+    font-size: 1.7rem;
+    padding-left: 90px;
+}
 
 .prevent{
     background:#222;

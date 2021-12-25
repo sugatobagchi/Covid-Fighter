@@ -151,14 +151,14 @@ function getCases(city) {
         if (key == "other")
           continue;
         let head = document.createElement("h1");
-        head.innerHTML = key + " " + text1[key];
+        head.innerHTML = key + " : " + text1[key];
         document.getElementsByClassName("unique1")[0].appendChild(head);
       }
       for (let key in text2) {
         if (key == "other")
           continue;
         let head = document.createElement("h1");
-        head.innerHTML = key + " " + text2[key];
+        head.innerHTML = key + " : " + text2[key];
         document.getElementsByClassName("unique2")[0].appendChild(head);
       }
 
