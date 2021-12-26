@@ -500,7 +500,9 @@ header .navbar ul li a:hover{
     padding:2rem 3.5rem;
     text-align: center;
     position: relative;
-    max-width: 34rem;
+    max-width: 25rem;
+    min-height: 30rem;
+    /* min-height: 30rem; */
 }
 
 .footer .box-container .box h3{
