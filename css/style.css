@@ -586,6 +586,7 @@ header .navbar ul li a:hover{
 .footer .box-container .box img{
     height: 17rem;
     width:17rem;
+    border-radius: 50%;
 }
 
 .footer .box-container .box h3{
